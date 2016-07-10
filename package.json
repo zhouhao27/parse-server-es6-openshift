@@ -4,7 +4,7 @@
   "description": "A es6 parse server running in openshift.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --exec babel-node",
+    "start": "VERBOSE=1 nodemon ./index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +21,7 @@
     "babel-eslint": "^6.1.0",
     "babel-polyfill": "^6.9.1",
     "babel-preset-es2015": "^6.9.0",
-    "babel-preset-stage-2": "^6.11.0"
+    "babel-preset-stage-2": "^6.11.0",
+    "nodemon": "^1.9.2"
   }
 }
