@@ -1,0 +1,26 @@
+{
+  "name": "parse-server-es6-openshift",
+  "version": "1.0.0",
+  "description": "A es6 parse server running in openshift.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zhou Hao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "parse": "^1.8.5",
+    "parse-dashboard": "^1.0.14",
+    "parse-server": "^2.2.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-eslint": "^6.1.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0"
+  }
+}
